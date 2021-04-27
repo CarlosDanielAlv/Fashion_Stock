@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="br">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+        <meta name="description" content="">
+        <meta name="author" content="Carlos Daniel da Silva">
+        <link rel="icon" href="_img/FiveIcon.png"> <!-- FIVE-ICON -->
+
+        <title>HOME - Fashion Stock</title>
+
+    </head>
+
+    <body class="text-center" style= "background: no-repeat center/cover url('_img/teste.png'); height: 100vh">
+
+        <!-- CABEÇALHO -->
+        <nav class="navbar navbar-dark bg-dark"><!-- Imagem e texto -->
+            <a class="navbar-brand" href="home.jsp">
+                <img src="_img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                Fashion Stock
+            </a>
+
+            <<!-- Menu -->
+            <div style="justify-content: space-between; margin: 0 30px;">
+                <a class="badge badge-pill badge-dark" href="home.html"><font size=3>Home</font></a>
+                <a class="badge badge-pill badge-dark" href="StockController?action=listStock"><font size=3>Lista Estoque</font></a>
+                <a class="badge badge-secondary badge-dark" href="StockController?action=insert"><font size=3>Registro</font></a>
+            </div>
+            <!-- Menu -->
+        </nav>
+
+        <!-- Breadcrumb -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">Home</li>
+            </ol>
+        </nav>
+
+        <div class="" >
+            <!-- CENTRO -->
+            <main role="main" class="inner cover" style="margin-top: 300px">
+                <h1 class="cover-heading">Bem Vindo(a)</h1>
+                <p class="lead">
+                    <b>O sistema Fashion Stock foi desenvolvido com intuito de promover a você usuário uma<br> 
+                        boa experiência em seu ambiente de trabalho. Com ele você poderá realizar as seguintes<br>
+                        tarefas:
+                    </b>
+                <p>Cadastrar mercadoria no estoque</p>
+                <p>Listar todas as mercadorias do estoque,</p>
+                <p>Buscar uma mercadoria especifica no estoque,</p>
+                <p>Atualizar dados da mercadoria</p>
+                <p>Deletar mercadoria.</p>
+                
+                <p class="lead">
+                    <a class="btn btn-lg btn-secondary" href="StockController?action=listStock" role="button">Gerenciar Estoque</a>
+                </p>
+            </main>
+            <!-- CENTRO -->
+        </div>
+
+        <!-- RODAPÉ -->
+        <footer class="my-5 pt-5 text-muted text-center text-small">
+            <p class="mb-1">© 2021 Carlos Daniel</p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="https://api.whatsapp.com/send?phone=5561995004992&text=Ol%C3%A1%20preciso%20de%20suporte%20com%20seu%20website%20-%20Fashion%20Stock">Privacidade</a></li>
+                <li class="list-inline-item"><a href="https://api.whatsapp.com/send?phone=5561995004992&text=Ol%C3%A1%20preciso%20de%20suporte%20com%20seu%20website%20-%20Fashion%20Stock">Termos</a></li>
+                <li class="list-inline-item"><a href="https://api.whatsapp.com/send?phone=5561995004992&text=Ol%C3%A1%20preciso%20de%20suporte%20com%20seu%20website%20-%20Fashion%20Stock">Suporte</a></li>
+            </ul>
+        </footer>
+        <!-- RODAPÉ -->
+
+
+        <!-- JavaScript (Opcional) -->
+        <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>
